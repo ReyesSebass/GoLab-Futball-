@@ -49,7 +49,18 @@ cd football-app
 go mod tidy
 ```
 
-🔐 **3. En la terminal donde se encuantre ubicado los arcivo main.go ejecutar el siguiente comando:**
+🔐 **3. En la base del proyecto donde se encuentra el archivo main.go crear el archivo .env**
+
+```bash
+# Crear el archivo para poner los datos de la conexión de la base de datos.
+DB_USER=user
+DB_PASS=password
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_NAME=football
+```
+
+🔐 **4. En la terminal donde se encuantre ubicado los arcivo main.go ejecutar el siguiente comando:**
 
 ```bash
 # Ejecutar comando para correr el proyecto.
